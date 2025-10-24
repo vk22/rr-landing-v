@@ -7,7 +7,7 @@
       class="mx-auto max-w-5xl flex flex-col items-center text-center py-20 px-4 transition-all duration-2000"
       :class="{
         'opacity-100 translate-y-0': contentVisible,
-        'opacity-100 translate-y-0': !contentVisible
+        'opacity-90 translate-y-0': !contentVisible
       }"
     >
       <div class="logo mb-10 md:mb-16">
