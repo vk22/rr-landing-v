@@ -17,7 +17,7 @@ export default defineEventHandler(async (event) => {
     // Отправляем письмо на свою почту
     await resend.emails.send({
       from: 'riviera@resend.dev',
-      to: 'v.kushnir22@gmail.com, s.artamonova@mered.ae',
+      to: ['v.kushnir22@gmail.com, s.artamonova@mered.ae'],
       subject: 'Riviera New Interest',
       text: `First Name: ${first_name}\nLast Name: ${last_name}\nEmail: ${email}\nPhone: ${phone}`,
     })
