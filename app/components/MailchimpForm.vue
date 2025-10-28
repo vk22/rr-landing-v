@@ -48,12 +48,19 @@
             </select>
           </div>
 
+          
+
           <div style="position: absolute; left: -5000px;" aria-hidden="true">
             <input type="text" name="b_25d9f5ec8a822907272418248_d82a44652e" tabindex="-1" value="">
           </div>
 
           <div class="clear">
             <input type="submit" value="Subscribe" class="button" />
+          </div>
+
+          <div id="mce-responses" class="clear foot">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
           </div>
         </div> 
       </form>
@@ -123,6 +130,24 @@ onMounted(() => {
     width: 100%!important;
     padding: 10px 0!important;
     margin-bottom: 10px!important;
+}
+
+#mc_embed_signup div#mce-responses {
+    display: flex;
+    float: left;
+    top: -1.4em;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    clear: both;
+}
+
+#mc_embed_signup #mce-success-response {
+    color: #4CAF50;
+    display: none;
+    text-align: center;
+    width: 100%;
 }
 
 </style>
