@@ -4,7 +4,7 @@
   >
     <section
       id="top"
-      class="mx-auto max-w-5xl flex flex-col items-center text-center py-20 px-4 transition-all duration-2000"
+      class="mx-auto max-w-5xl flex flex-col items-center text-center py-20 px-10 transition-all duration-2000"
       :class="{
         'opacity-100 translate-y-0': contentVisible,
         'opacity-90 translate-y-0': !contentVisible
@@ -15,41 +15,40 @@
       </div>
 
       <div class="text-1">
-        <h1 class="text-white mb-4 md:mb-8 md:mb-16 text-3xl md:text-5xl">
-          Unveiling the essence of Riviera living
-          <br />
-          <span class="text-accent">in the heart of Abu Dhabi</span> 
+        <h1 class="text-white mb-6 md:mb-6 md:mb-16 text-[2rem] md:text-[4rem] max-w-[900px]">
+          Riviera Residences — <span class="text-accent color1">a new icon 
+       
+          of waterfront living </span>
+          <br>
+          <span class="text-accent light-blue">on Al Reem Island, Abu Dhabi</span> 
         </h1>
       </div>
 
       <div class="text-2">
-        <p class="text-white mb-4 md:mb-8 text-lg md:text-xl max-w-lg">
-          A new chapter is about to unfold on Al Reem Island, where city energy
-          meets coastal calm. Shaped by water, your home becomes your private
-          resort.
+        <p class="text-white mb-4 md:mb-8 text-[.9rem] md:text-[1.15rem] max-w-lg">
+          Architecture by Herzog & de Meuron — Pritzker Prize laureates and authors of some of the most iconic architecture of the 21st century.
         </p>
       </div>
 
       <div class="text-2">
-        <p class="text-white mb-4 md:mb-8 text-lg md:text-xl max-w-lg">
-          Discover Riviera Residences by MERED, blending Mediterranean charm
-          with the luxury of the Emirates.
+        <p class="text-white mb-6 md:mb-12 text-[.9rem] md:text-[1.15rem] max-w-lg">
+          Blending Mediterranean serenity with the spirit of the Emirates, Riviera Residences offers the comfort of a private resort — with refined design, waterfront promenade, and world-class amenities.
         </p>
       </div>
 
       <div class="text-2">
-        <p class="text-white text-lg md:text-xl mb-6 md:mb-10 max-w-lg">
-          <span class="font-grotesk">Get ready for something extraordinary — </span>
+        <p class="text-white text-lg md:text-xl mb-10 md:mb-12 max-w-lg">
+          <span class="font-sans text-[1.5rem] md:text-[2rem]">Sales start in</span> <span class="font-sans-italic text-[1.5rem] md:text-[2rem]">November</span>
           <br>
-          <span class="font-sans-italic text-3xl">launching in November</span>.
+          <span class="font-grotesk uppercase tracking-[.12em] text-[1rem] md:text-[1.35rem] leading-[2rem]">Express your interest</span>
         </p>
       </div>
-
+<!-- 
       <div class="text-2">
         <p class="text-white text-lg md:text-xl mb-6 md:mb-8 max-w-lg">Register your interest today </p>
-      </div>
+      </div> -->
       
-      <Form></Form>
+      <MailchimpForm></MailchimpForm>
     
       <div class="text-2">
         <p class="text-white text-m max-w-xl mb-4 md:mb-8">Attendance is by invitation only — spaces are limited, and QR-coded invites will be sent one week before the event. </p>
@@ -81,11 +80,12 @@ onMounted(() => {
 
 <style scoped>
 .landing-index {
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("/img/background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.827),rgba(0, 0, 0, 0.5)), url("/img/background.jpg");
   background-position: center center;
   background-size: cover;
+  overflow: scroll;
 }
 
 
