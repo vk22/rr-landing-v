@@ -82,6 +82,17 @@ onMounted(() => {
     console.log("Mailchimp JS loaded")
   }
   document.body.appendChild(script)
+
+  // const successEl = document.getElementById("mce-success-response");
+  // if (successEl) {
+  //   const observer = new MutationObserver(() => {
+  //     if (successEl.style.display !== "none" && successEl.innerText.trim() !== "") {
+  //       // Меняем текст
+  //       successEl.innerHTML = "Thank you — your request has been received.";
+  //     }
+  //   });
+  //   observer.observe(successEl, { childList: true, subtree: true });
+  // }
 })
 </script>
 
@@ -144,7 +155,7 @@ onMounted(() => {
 }
 
 #mc_embed_signup #mce-success-response {
-    color: #4CAF50;
+    color: #fff;
     display: none;
     text-align: center;
     width: 100%;

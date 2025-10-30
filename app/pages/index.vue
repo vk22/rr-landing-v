@@ -31,7 +31,7 @@
         >
           <h1 class="text-white text-[2rem] md:text-[4rem]">
             <div class="uppercase">
-              a new <span class="text-accent light-blue">icon</span> of
+              a new icon of
             </div>
             <div class="uppercase">
               waterfront <span class="text-accent light-blue">living</span>
@@ -123,13 +123,6 @@
             'opacity-0 translate-y-1': !contentVisible,
           }"
         ></MailchimpForm>
-
-        <div class="text-2">
-          <p class="text-white text-m max-w-xl mb-4 md:mb-8">
-            Attendance is by invitation only — spaces are limited, and QR-coded
-            invites will be sent one week before the event. 
-          </p>
-        </div>
 
         <div class="logo mb-1">
           <img class="max-w-30" src="../assets/img/mered.svg" alt="" />
