@@ -15,7 +15,7 @@
           <!-- <h2>Subscribe</h2> -->
 
           <div class="mc-field-group">
-            <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+            <label for="mce-EMAIL">Email Address *</label>
             <input type="email" name="EMAIL" id="mce-EMAIL" required />
           </div>
 
