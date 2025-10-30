@@ -138,7 +138,7 @@
     </div>
 
     <div
-      class="img-background transition-all duration-7000 delay-500"
+      class="img-background transition-all duration-5000 delay-500"
       :class="{
         'scale-100 translate-y-0': contentVisible,
         'scale-102 translate-y-0': !contentVisible,
