@@ -160,7 +160,8 @@ onMounted(() => {
 .landing-index {
   height: 100vh;
   position: relative;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .content-container {
@@ -169,7 +170,8 @@ onMounted(() => {
   width: 100%;
   height: 100%;
   position: absolute;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   z-index: 1;
 }
 
