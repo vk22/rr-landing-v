@@ -171,7 +171,13 @@ onMounted(() => {
   position: absolute;
   overflow-y: scroll;
   overflow-x: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
   z-index: 1;
+}
+
+.content-container::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
 }
 
 .img-background {
