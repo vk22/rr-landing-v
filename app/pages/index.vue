@@ -6,10 +6,10 @@
     <div class="content-container">
       <section
         id="top"
-        class="mx-auto max-w-5xl flex flex-col items-center text-center py-20 px-10"
+        class="mx-auto max-w-5xl flex flex-col items-center text-center py-12 md:py-20 px-4 md:px-10"
       >
         <div
-          class="logo mb-16 md:mb-24 transition-all duration-1000 delay-100"
+          class="logo mb-10 md:mb-24 transition-all duration-1000 delay-100"
           :class="{
             'opacity-100 translate-y-0': contentVisible,
             'opacity-0 translate-y-1': !contentVisible,
@@ -116,13 +116,13 @@
           </p>
         </div>
 
-        <MailchimpForm
+        <MailchimpForm2
           class="transition-all duration-1000 delay-700"
           :class="{
             'opacity-100 translate-y-0': contentVisible,
             'opacity-0 translate-y-1': !contentVisible,
           }"
-        ></MailchimpForm>
+        ></MailchimpForm2>
 
         <div class="logo mb-1">
           <img class="max-w-30" src="../assets/img/mered.svg" alt="" />
