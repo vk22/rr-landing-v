@@ -94,7 +94,7 @@ function submitForm() {
 
   window.mcCallback = data => {
     loading.value = false
-    console.log('data ', data)
+    // console.log('data ', data)
     if (data.result === 'success') {
       message.value = 'Thank you — your request has been received.'
       messageStyle.value = 'text-white'
